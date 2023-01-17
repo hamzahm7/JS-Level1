@@ -1,0 +1,33 @@
+
+.buttonDiv{
+    margin: auto;
+    width: 70%;
+    padding: 12px;
+    text-align: center;
+}
+
+    
+.button{
+    background-color: #1ec13c;
+    padding: 10px 33px;
+    border: none;
+
+    color: white;
+    font-size: 18px;
+
+    margin: 10px 20px;
+
+    transition-duration: 0.2s;
+}
+
+.button:hover{
+    background-color: #3b5804;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 7px 25px 0 rgba(0,0,0,0.19);
+}
+
+.coinCountText{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 85px;
+}

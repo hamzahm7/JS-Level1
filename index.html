@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttons.css">
+    <script src="script.js"></script>
+    <title>Count the Money</title>
+</head>
+<body>
+    <div class="buttonDiv">
+        <button class="button" onclick="addCoin(1)">Add Penny</button>
+        <button class="button" onclick="addCoin(5)">Add Nickel</button>
+        <button class="button" onclick="addCoin(10)">Add Dime</button>
+        <button class="button" onclick="addCoin(25)">Add Quarter</button>
+    </div>
+    <div class="buttonDiv">
+        <button class="button sub" onclick="subCoin(1)">Subtract Penny</button>
+        <button class="button sub" onclick="subCoin(5)">Subtract Nickel</button>
+        <button class="button sub" onclick="subCoin(10)">Subtract Dime</button>
+        <button class="button sub" onclick="subCoin(25)">Subtract Quarter</button>
+    </div>
+    <div class="coinCountText">
+        <p class="coinCount" id="total">Your total coin count is: </p>
+        <p class="cointCount" id="penny">Your total penny count is: </p>
+        <p class="coinCount" id="nickel">Your total nickel count is: </p>
+        <p class="coinCount" id="dime">Your total dime count is: </p>
+        <p class="coinCount" id="quarter">Your total quarter count is: </p>
+    </div>
+    <div class="coinCountText">
+        <p class="coinCount" id="totalValue">Your total coin amount is: </p>
+        <p class="cointCount" id="pennyValue">Your total penny amount is: </p>
+        <p class="coinCount" id="nickelValue">Your total nickel amount is: </p>
+        <p class="coinCount" id="dimeValue">Your total dime amount is: </p>
+        <p class="coinCount" id="quarterValue">Your total quarter amount is: </p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
